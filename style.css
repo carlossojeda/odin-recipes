@@ -1,10 +1,65 @@
-/*
-body{
-    background-image: url(https://www.suqiee.com.mx/wp-content/uploads/2019/04/instagram-pastel-confetti-1.jpg);
+html{
+    font-size: 62.5%;
 }
-h1{
+body{
+    font-size: 16px;
+}
+*{
+    background-color: black;
+    color: bisque;
+    text-decoration: none;
     
-    color: red;
+}
+
+
+.titulo{
+    text-align: center;
+    font-size: 5rem;
+    color: brown;
+    padding: 1rem;
+    margin: 4rem 0 4rem 0;
+}
+@media (min-width: 768px) {
+    titulo{
+        text-align: center;
+        font-size: 5rem;
+        color: brown;
+        padding: 1rem;
+        margin: 4rem 0 7rem 0;
+    }
+}
+.subtitulo{
+    text-align: center;
+    font-size: 3rem;
+    color: brown;
+    padding: 1rem;
+}
+.navegacion{
+    background-color: white;
+}
+
+.nav{
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
-*/
+.nav a{
+    margin: 0 0 2rem 0; 
+    display: block; 
+    padding: 2rem;
+}
+
+
+a:hover{
+    text-decoration: underline brown 2rem;
+}
+@media (min-width: 768px) {
+    .nav{
+        font-size: 2.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        padding: 1rem;
+    }
+}
